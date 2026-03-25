@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/Noah/Desktop/Files/Programmioong/Hardware Design/hackpad-attemps/macropad-v2/firmware/target/desktop
+# Install script for directory: /mnt/c/Users/Noah/Desktop/Files/Programmioong/firmware/noahshpad-firmware/target/desktop
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

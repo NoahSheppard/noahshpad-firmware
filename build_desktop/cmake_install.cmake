@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/Noah/Desktop/Files/Programmioong/Hardware Design/hackpad-attemps/macropad-v2/firmware
+# Install script for directory: /mnt/c/Users/Noah/Desktop/Files/Programmioong/firmware/noahshpad-firmware
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,12 +44,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/mnt/c/Users/Noah/Desktop/Files/Programmioong/Hardware Design/hackpad-attemps/macropad-v2/firmware/build_desktop/app/cmake_install.cmake")
+  include("/mnt/c/Users/Noah/Desktop/Files/Programmioong/firmware/noahshpad-firmware/build_desktop/app/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/mnt/c/Users/Noah/Desktop/Files/Programmioong/Hardware Design/hackpad-attemps/macropad-v2/firmware/build_desktop/target/desktop/cmake_install.cmake")
+  include("/mnt/c/Users/Noah/Desktop/Files/Programmioong/firmware/noahshpad-firmware/build_desktop/target/desktop/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -60,5 +60,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/c/Users/Noah/Desktop/Files/Programmioong/Hardware Design/hackpad-attemps/macropad-v2/firmware/build_desktop/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/c/Users/Noah/Desktop/Files/Programmioong/firmware/noahshpad-firmware/build_desktop/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

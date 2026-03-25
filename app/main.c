@@ -13,16 +13,16 @@ int main(void) {
 
         if (now - last >= 33) {
             last = now;
+            uint8_t start = 64;
 
             display_clear();
 
-            if(!hal_gpio_get(5)) {
-                printf("KEY PRESSED\n");
-                draw_string(0, 0, "ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$\%^&*()");
+            if(hal_gpio_get(5)) {
+                draw_string(0,  0, "The key system works!");
             } else {
-                draw_string(0, 0, "abcdefghijklmnopqrstuvwxyz1234567890");
+                draw_string(0, 0, "Hello World!");
             }
-
+           
             hal_display_flush();
         }
     }

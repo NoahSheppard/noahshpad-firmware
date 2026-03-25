@@ -1,8 +1,8 @@
-/mnt/c/Users/Noah/Desktop/Files/Programmioong/Hardware Design/hackpad-attemps/macropad-v2/firmware/build_desktop/CMakeFiles/edit_cache.dir
-/mnt/c/Users/Noah/Desktop/Files/Programmioong/Hardware Design/hackpad-attemps/macropad-v2/firmware/build_desktop/CMakeFiles/rebuild_cache.dir
-/mnt/c/Users/Noah/Desktop/Files/Programmioong/Hardware Design/hackpad-attemps/macropad-v2/firmware/build_desktop/app/CMakeFiles/app.dir
-/mnt/c/Users/Noah/Desktop/Files/Programmioong/Hardware Design/hackpad-attemps/macropad-v2/firmware/build_desktop/app/CMakeFiles/edit_cache.dir
-/mnt/c/Users/Noah/Desktop/Files/Programmioong/Hardware Design/hackpad-attemps/macropad-v2/firmware/build_desktop/app/CMakeFiles/rebuild_cache.dir
-/mnt/c/Users/Noah/Desktop/Files/Programmioong/Hardware Design/hackpad-attemps/macropad-v2/firmware/build_desktop/target/desktop/CMakeFiles/noahshpad_desktop.dir
-/mnt/c/Users/Noah/Desktop/Files/Programmioong/Hardware Design/hackpad-attemps/macropad-v2/firmware/build_desktop/target/desktop/CMakeFiles/edit_cache.dir
-/mnt/c/Users/Noah/Desktop/Files/Programmioong/Hardware Design/hackpad-attemps/macropad-v2/firmware/build_desktop/target/desktop/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Noah/Desktop/Files/Programmioong/firmware/noahshpad-firmware/build_desktop/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Noah/Desktop/Files/Programmioong/firmware/noahshpad-firmware/build_desktop/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Noah/Desktop/Files/Programmioong/firmware/noahshpad-firmware/build_desktop/app/CMakeFiles/app.dir
+/mnt/c/Users/Noah/Desktop/Files/Programmioong/firmware/noahshpad-firmware/build_desktop/app/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Noah/Desktop/Files/Programmioong/firmware/noahshpad-firmware/build_desktop/app/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Noah/Desktop/Files/Programmioong/firmware/noahshpad-firmware/build_desktop/target/desktop/CMakeFiles/noahshpad_desktop.dir
+/mnt/c/Users/Noah/Desktop/Files/Programmioong/firmware/noahshpad-firmware/build_desktop/target/desktop/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Noah/Desktop/Files/Programmioong/firmware/noahshpad-firmware/build_desktop/target/desktop/CMakeFiles/rebuild_cache.dir
