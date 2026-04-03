@@ -1,9 +1,8 @@
 # ninja log v5
 30	103	1774349989803811100	app/CMakeFiles/app.dir/display.c.o	99cb13f040c1c163
-31	116	1774350063798238400	app/CMakeFiles/app.dir/main.c.o	96fa6a1892dc86da
-121	163	1774350063848908800	app/libapp.a	7db9ef0d895970a3
-164	421	1774350064103959700	target/desktop/noahshpad_desktop	59c2a6961157d89e
-37	451	1774348772768648300	target/desktop/CMakeFiles/noahshpad_desktop.dir/hal.c.o	bfddc9199432f84a
-32	112	1774350084476904700	app/CMakeFiles/app.dir/main.c.o	96fa6a1892dc86da
-117	159	1774350084526729700	app/libapp.a	7db9ef0d895970a3
+35	164	1775215247120952200	app/CMakeFiles/app.dir/main.c.o	96fa6a1892dc86da
+169	222	1775215247182914000	app/libapp.a	7db9ef0d895970a3
 160	419	1774350084785666900	target/desktop/noahshpad_desktop	59c2a6961157d89e
+37	451	1774348772768648300	target/desktop/CMakeFiles/noahshpad_desktop.dir/hal.c.o	bfddc9199432f84a
+33	498	1775215284560011400	target/desktop/CMakeFiles/noahshpad_desktop.dir/hal.c.o	bfddc9199432f84a
+504	809	1775215284893987200	target/desktop/noahshpad_desktop	59c2a6961157d89e

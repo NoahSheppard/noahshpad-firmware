@@ -17,10 +17,33 @@ int main(void) {
 
             display_clear();
 
-            if(hal_gpio_get(5)) {
-                draw_string(0,  0, "The key system works!");
+            // Key Matrix
+
+            if (hal_gpio_get(10) && hal_gpio_get(4)) {
+                draw_string(0, 0, "Key 1 Pressed");
+            }
+            else if (hal_gpio_get(10) && hal_gpio_get(5)) {
+                draw_string(0, 0, "Key 2 Pressed");
+            }
+            else if (hal_gpio_get(10) && hal_gpio_get(6)) {
+                draw_string(0, 0, "Key 3 Pressed");
+            }
+            else if (hal_gpio_get(10) && hal_gpio_get(7)) {
+                draw_string(0, 0, "Key 4 Pressed");
+            }
+            else if (hal_gpio_get(11) && hal_gpio_get(4)) {
+                draw_string(0, 0, "Key 5 Pressed");
+            }
+            else if (hal_gpio_get(11) && hal_gpio_get(5)) {
+                draw_string(0, 0, "Key 6 Pressed");
+            }
+            else if (hal_gpio_get(11) && hal_gpio_get(6)) {
+                draw_string(0, 0, "Key 7 Pressed");
+            }
+            else if (hal_gpio_get(11) && hal_gpio_get(7)) {
+                draw_string(0, 0, "Key 8 Pressed");
             } else {
-                draw_string(0, 0, "Hello World!");
+                draw_string(0, 0, "No Key Pressed");
             }
            
             hal_display_flush();

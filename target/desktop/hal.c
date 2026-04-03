@@ -32,10 +32,71 @@ bool hal_gpio_get(uint8_t pin) {
     SDL_Event e;
     while (SDL_PollEvent(&e)) {
         if (e.type == SDL_QUIT) exit(0);
-        if (e.type == SDL_KEYDOWN && e.key.keysym.sym == SDLK_SPACE)
+        if (e.type == SDL_KEYDOWN && e.key.keysym.sym == SDLK_q) {
+            gpio_state[10] = true;
+            gpio_state[4] = true;
+        }
+        if (e.type == SDL_KEYDOWN && e.key.keysym.sym == SDLK_w) {
+            gpio_state[10] = true;
             gpio_state[5] = true;
-        if (e.type == SDL_KEYUP && e.key.keysym.sym == SDLK_SPACE)
+        }
+        if (e.type == SDL_KEYDOWN && e.key.keysym.sym == SDLK_e) {
+            gpio_state[10] = true;
+            gpio_state[6] = true;
+        }
+        if (e.type == SDL_KEYDOWN && e.key.keysym.sym == SDLK_r) {
+            gpio_state[10] = true;
+            gpio_state[7] = true;
+        }
+        if (e.type == SDL_KEYDOWN && e.key.keysym.sym == SDLK_a) {
+            gpio_state[11] = true;
+            gpio_state[4] = true;
+        }
+        if (e.type == SDL_KEYDOWN && e.key.keysym.sym == SDLK_s) {
+            gpio_state[11] = true;
+            gpio_state[5] = true;
+        }
+        if (e.type == SDL_KEYDOWN && e.key.keysym.sym == SDLK_d) {
+            gpio_state[11] = true;
+            gpio_state[6] = true;
+        }
+        if (e.type == SDL_KEYDOWN && e.key.keysym.sym == SDLK_f) {
+            gpio_state[11] = true;
+            gpio_state[7] = true;
+        }
+
+        if (e.type == SDL_KEYUP && e.key.keysym.sym == SDLK_q) {
+            gpio_state[10] = false;
+            gpio_state[4] = false;
+        }
+        if (e.type == SDL_KEYUP && e.key.keysym.sym == SDLK_w) {
+            gpio_state[10] = false;
             gpio_state[5] = false;
+        }
+        if (e.type == SDL_KEYUP && e.key.keysym.sym == SDLK_e) {
+            gpio_state[10] = false;
+            gpio_state[6] = false;
+        }
+        if (e.type == SDL_KEYUP && e.key.keysym.sym == SDLK_r) {
+            gpio_state[10] = false;
+            gpio_state[7] = false;
+        }
+        if (e.type == SDL_KEYUP && e.key.keysym.sym == SDLK_a) {
+            gpio_state[11] = false;
+            gpio_state[4] = false;
+        }
+        if (e.type == SDL_KEYUP && e.key.keysym.sym == SDLK_s) {
+            gpio_state[11] = false;
+            gpio_state[5] = false;
+        }
+        if (e.type == SDL_KEYUP && e.key.keysym.sym == SDLK_d) {
+            gpio_state[11] = false;
+            gpio_state[6] = false;
+        }
+        if (e.type == SDL_KEYUP && e.key.keysym.sym == SDLK_f) {
+            gpio_state[11] = false;
+            gpio_state[7] = false;
+        }
     }
     return (pin < 32) ? gpio_state[pin] : false;
 }
